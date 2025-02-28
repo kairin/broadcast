@@ -1,5 +1,11 @@
 ```mermaid
 
+---
+config:
+  theme: neutral
+  look: neo
+  layout: elk
+---
 flowchart TD
  subgraph subGraph0["Data Flow Issues"]
         D{"Nodes"}
@@ -49,9 +55,10 @@ flowchart TD
     U --> V
     V --> W
     D -- Can we find a solution that allows to manage the Node otherwise a simpler alternative --> X
-
     style T fill:#ccf,stroke:#f66,stroke-width:2px,color:#000000
-    style s3 fill:#BBDEFB
-    style s2 fill:#E1BEE7
-    style s1 fill:#E1BEE7
+    style s3 fill:#424242,color:#FFFFFF
+    style s2 fill:#000000,color:#FFFFFF
+    style s1 fill:#000000,color:#FFFFFF
+    style subGraph0 color:#000000
+
 ```
