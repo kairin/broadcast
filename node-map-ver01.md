@@ -50,7 +50,7 @@ flowchart TD
     V --> W
     D -- Can we find a solution that allows to manage the Node otherwise a simpler alternative --> X
 
-    style T fill:#ccf,stroke:#f66,stroke-width:2px
+    style T fill:#ccf,stroke:#f66,stroke-width:2px,color:#000000
     style s3 fill:#BBDEFB
     style s2 fill:#E1BEE7
     style s1 fill:#E1BEE7
